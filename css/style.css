@@ -257,6 +257,19 @@ footer ul {
         order: 2;
         text-align: right;
     }
+   /* Selects 'article' elements that do not have the class 'reverse' */
+article:not(.reverse) {
+    /* Selects the direct child 'div' element with the class 'text' */
+    > div.text {
+        /* Selects the direct child 'p' element with the class 'blackbox' */
+        > p.blackbox {
+            /* Applies the style to left-align the text */
+            text-align: left;
+        }
+    }
+}
+
+    
 
     #projects ul {
         justify-content: flex-end;
