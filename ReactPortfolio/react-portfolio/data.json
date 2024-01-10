@@ -2,7 +2,16 @@
   {
     "heading": "Latest Project",
     "name": "Keeper App",
-    "discription": "The frontend development was carried out using React, a popular JavaScript library for building user interfaces, coupled with Material UI to enhance the visual design and user experience.The backend, powered by Express.js, Mongoose, and MongoDB, ensures efficient data management.",
+    "discription": {
+      "sentence": "The frontend development was carried out using -, a popular JavaScript library for building user interfaces, coupled with - to enhance the visual design and user experience.The backend, powered by -, -, and -, ensures efficient data management.",
+      "words": [
+        { "React": "http://google.com" },
+        { "Material UI": "http://google.com" },
+        { "Express Js": "http://google.com" },
+        { "Mongoose": "http://google.com" },
+        { "MongoDB": "http://google.com" }
+      ]
+    },
     "tech": ["React", "Material UI", "Express Js", "Mongoose", "MongoDB"],
     "image": "../../public/images/keeperApp.png",
     "classes": ""

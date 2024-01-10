@@ -9,13 +9,17 @@ export default function Projects({
   image,
   classes,
 }) {
+  function formatWords(strings, ...values) {
+    var str = String(values).replace(/-/g, () => discription.words.shift());
+    return strings + str;
+  }
   return (
     <article className={classes ? "reverse" : ""}>
       <div className="text">
         <h4>{heading}</h4>
         <h3>{name}</h3>
         <p className="blackbox">
-          {`Description of the project. ${discription}`}
+          {formatWords`Description of the project. ${discription.sentence}`}
         </p>
         <h4>Technologies used include:</h4>
         <ul>
