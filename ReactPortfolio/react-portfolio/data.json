@@ -1,0 +1,31 @@
+[
+  {
+    "heading": "Latest Project",
+    "name": "Keeper App",
+    "discription": "The frontend development was carried out using React, a popular JavaScript library for building user interfaces, coupled with Material UI to enhance the visual design and user experience.The backend, powered by Express.js, Mongoose, and MongoDB, ensures efficient data management.",
+    "tech": ["React", "Material UI", "Express Js", "Mongoose", "MongoDB"],
+    "image": "../../public/images/keeperApp.png",
+    "classes": ""
+  },
+  {
+    "heading": "Bootcamp Project",
+    "name": "Daily Journal",
+    "discription": "Developed a daily journaling web application using server side rendering with Node.js and the Express framework to generate HTML pages and views leveraging the EJS template engine, along with crafting a RESTful API to create, read, update and delete journal entries from the database, employing plain CSS without the overhead of frameworks for simple and flexible styling.",
+    "tech": ["NodeJs", "EJS", "Express Js", "Mongoose/MongoDB"],
+    "image": "../../public/images/dailyJournal.png",
+    "classes": "reverse"
+  },
+  {
+    "heading": "Photography Project",
+    "name": "Products Website",
+    "discription": "Created a modern web application using the MERN stack to enhance user experience through Material-UI, React Router DOM for dynamic single page application routing, a Node.js REST API with Mongoose and MongoDB for optimized back-end data operations, and integrating the Fetch API on the front-end to enable responsive user interfaces by asynchronously fetching and manipulating data from API endpoints.",
+    "tech": [
+      "React Router DOM",
+      "Fetch API",
+      "TailwindCSS",
+      "Mongoose/MongoDB"
+    ],
+    "image": "../../public/images/CNCproduct.png",
+    "classes": ""
+  }
+]
