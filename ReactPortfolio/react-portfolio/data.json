@@ -3,13 +3,13 @@
     "heading": "Latest Project",
     "name": "Keeper App",
     "discription": {
-      "sentence": "The frontend development was carried out using -, a popular JavaScript library for building user interfaces, coupled with - to enhance the visual design and user experience.The backend, powered by -, -, and -, ensures efficient data management.",
+      "sentence": "The frontend development was carried out using React, a popular JavaScript library for building user interfaces, coupled with Material UI to enhance the visual design and user experience.The backend, powered by Express Js, Mongoose, and MongoDB, ensures efficient data management.",
       "words": [
-        { "React": "http://google.com" },
-        { "Material UI": "http://google.com" },
-        { "Express Js": "http://google.com" },
-        { "Mongoose": "http://google.com" },
-        { "MongoDB": "http://google.com" }
+        { "name": "React", "link": "http://google.com" },
+        { "name": "Material UI", "link": "http://google.com" },
+        { "name": "Express Js", "link": "http://google.com" },
+        { "name": "Mongoose", "link": "http://google.com" },
+        { "name": "MongoDB", "link": "http://google.com" }
       ]
     },
     "tech": ["React", "Material UI", "Express Js", "Mongoose", "MongoDB"],
@@ -19,7 +19,9 @@
   {
     "heading": "Bootcamp Project",
     "name": "Daily Journal",
-    "discription": "Developed a daily journaling web application using server side rendering with Node.js and the Express framework to generate HTML pages and views leveraging the EJS template engine, along with crafting a RESTful API to create, read, update and delete journal entries from the database, employing plain CSS without the overhead of frameworks for simple and flexible styling.",
+    "discription": {
+      "sentence": "Developed a daily journaling web application using server side rendering with Node.js and the Express framework to generate HTML pages and views leveraging the EJS template engine, along with crafting a RESTful API to create, read, update and delete journal entries from the database, employing plain CSS without the overhead of frameworks for simple and flexible styling."
+    },
     "tech": ["NodeJs", "EJS", "Express Js", "Mongoose/MongoDB"],
     "image": "../../public/images/dailyJournal.png",
     "classes": "reverse"
@@ -27,7 +29,9 @@
   {
     "heading": "Photography Project",
     "name": "Products Website",
-    "discription": "Created a modern web application using the MERN stack to enhance user experience through Material-UI, React Router DOM for dynamic single page application routing, a Node.js REST API with Mongoose and MongoDB for optimized back-end data operations, and integrating the Fetch API on the front-end to enable responsive user interfaces by asynchronously fetching and manipulating data from API endpoints.",
+    "discription": {
+      "sentence": "Created a modern web application using the MERN stack to enhance user experience through Material-UI, React Router DOM for dynamic single page application routing, a Node.js REST API with Mongoose and MongoDB for optimized back-end data operations, and integrating the Fetch API on the front-end to enable responsive user interfaces by asynchronously fetching and manipulating data from API endpoints."
+    },
     "tech": [
       "React Router DOM",
       "Fetch API",
