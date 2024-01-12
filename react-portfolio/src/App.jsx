@@ -13,7 +13,7 @@ function App() {
       <Divider />
       <Hero />
       <Divider />
-      <div className="section-dkblue">
+      <div className="section-dkblue" style={{ overflow: "hidden" }}>
         <section id="projects">
           <h2>Projects I&rsquo;m proud of</h2>
           {data.map((projectInfo, idx) => (
