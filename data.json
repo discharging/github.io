@@ -13,7 +13,7 @@
       ]
     },
     "tech": ["React", "Material UI", "Express Js", "Mongoose", "MongoDB"],
-    "image": "../../public/images/keeperApp.png",
+    "image": "./images/keeperApp.png",
     "classes": ""
   },
   {
@@ -23,7 +23,7 @@
       "sentence": "Developed a daily journaling web application using server side rendering with Node.js and the Express framework to generate HTML pages and views leveraging the EJS template engine, along with crafting a RESTful API to create, read, update and delete journal entries from the database, employing plain CSS without the overhead of frameworks for simple and flexible styling."
     },
     "tech": ["NodeJs", "EJS", "Express Js", "Mongoose/MongoDB"],
-    "image": "../../public/images/dailyJournal.png",
+    "image": "./images/dailyJournal.png",
     "classes": "reverse"
   },
   {
@@ -38,7 +38,7 @@
       "TailwindCSS",
       "Mongoose/MongoDB"
     ],
-    "image": "../../public/images/CNCproduct.png",
+    "image": "./images/CNCproduct.png",
     "classes": ""
   }
 ]
