@@ -26,7 +26,7 @@ export default function Nav() {
           </a>
         </li>
         <li>
-          <a href="https://github.com/discharging">
+          <a href="https://github.com/pal-kamlesh">
             <span
               className="fa-brands fa-square-github"
               aria-hidden="true"
@@ -36,7 +36,7 @@ export default function Nav() {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1INrOyaMiMwVO4K5d_nELlc3Qp6bz9aJ_/view?usp=sharing"
+            href="https://drive.google.com/file/d/1NCrEG4zrDLo2tFogZpWS18GX4jEKVcUI/view?usp=sharing"
             className="button"
           >
             Resume

@@ -266,13 +266,14 @@ footer ul {
 }
 
 @media (min-width: 800px) {
-  article {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-  }
   #projects {
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
   }
 
   #projects .projectImg {
