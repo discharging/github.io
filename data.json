@@ -1,5 +1,15 @@
 [
   {
+    "heading": "API Consumption ",
+    "name": "Cineplex",
+    "discription": {
+      "sentence": "This dynamic React web app, leveraging Tailwind CSS and custom hooks, provides a feature-rich movie browsing experience. It taps into the expansive MovieDB API to fetch and display film data rapidly with professional search and dark mode functions. Modern web development skills like declarative React components, reusable hooks, API integration, routing, and responsive design create a polished, scalable application."
+    },
+    "tech": ["React Router DOM", "Fetch API", "TailwindCSS", "Vite"],
+    "image": "./images/cineplex.png",
+    "classes": ""
+  },
+  {
     "heading": "Latest Project",
     "name": "Keeper App",
     "discription": {
@@ -14,7 +24,7 @@
     },
     "tech": ["React", "Material UI", "Express Js", "Mongoose", "MongoDB"],
     "image": "./images/keeperApp.png",
-    "classes": ""
+    "classes": "reverse"
   },
   {
     "heading": "Bootcamp Project",
@@ -24,21 +34,6 @@
     },
     "tech": ["NodeJs", "EJS", "Express Js", "Mongoose/MongoDB"],
     "image": "./images/dailyJournal.png",
-    "classes": "reverse"
-  },
-  {
-    "heading": "Photography Project",
-    "name": "Products Website",
-    "discription": {
-      "sentence": "Created a modern web application using the MERN stack to enhance user experience through Material-UI, React Router DOM for dynamic single page application routing, a Node.js REST API with Mongoose and MongoDB for optimized back-end data operations, and integrating the Fetch API on the front-end to enable responsive user interfaces by asynchronously fetching and manipulating data from API endpoints."
-    },
-    "tech": [
-      "React Router DOM",
-      "Fetch API",
-      "TailwindCSS",
-      "Mongoose/MongoDB"
-    ],
-    "image": "./images/CNCproduct.png",
     "classes": ""
   }
 ]
